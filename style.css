@@ -191,10 +191,3 @@ input[type=submit]:hover {
   text-align: center;
   font-size: 130%;
 }
-.tab {
-  height: auto;
-  width: 100%;
-}
-td {
-  padding: 1%;
-}

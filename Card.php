@@ -1,21 +1,14 @@
 <?php
-class Card {
 
-    // Les Attributs
-    public $image;
+class Card
+{
     private $id;
+    private $image;
     private $state;
-    private $items;
 
-    // public $etat;
-
-    // Le Constructeur
-    // public function __construct($idCard) {
-	// 	$ToutesLesImages = ['image/card1.jpg', 'image/card2.jpg', 'image/card3.jpg', 'image/card4.jpg', 'image/card5.jpg', 'image/card6.jpg', 'image/card7.jpg', 'image/card8.jpg', 'image/card9.jpg', 'image/card10.jpg', 'image/card11.jpg', 'image/card12.jpg'];
-	// 	$this->setImage($ToutesLesImages[$idCard]);
-	// }
-
-    // Les Methodes
+    /**
+     * @return mixed
+     */
     public function getId()
     {
         return $this->id;
@@ -60,5 +53,6 @@ class Card {
     {
         $this->state = $state;
     }
+
 }
 ?>
