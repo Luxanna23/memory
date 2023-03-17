@@ -1,5 +1,6 @@
 <?php 
-require('card.php');
+require('classe/card.php');
+require('classe/jeu.php');
 session_start();
 
 // On instancie notre classe Card
